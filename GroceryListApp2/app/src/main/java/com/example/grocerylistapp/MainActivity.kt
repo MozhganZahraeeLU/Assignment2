@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menu?.clear() // Clear the menu to avoid duplication
+        menu?.clear()
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
